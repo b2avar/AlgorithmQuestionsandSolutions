@@ -2,7 +2,7 @@
 //Write WriteLine Methods
 
 //Question 1: Write "Hello World!" to the console using the Write method.
-static void Question1()
+void Question1()
 {   
     Console.Write("Hello, World!");
 }
@@ -35,4 +35,36 @@ void Question4()
     Console.WriteLine($"A={A}");
     Console.WriteLine($"B={B}");
 }
+
+
+//Read ReadLine Methods
+
+//Write a program that calculates the sum and average
+//of 4 numbers entered by the user.
+void Question5()
+{
+    int a, b, c, d, sum = 0, average = 0;
+    Console.Write("Enter the 1st number:");
+    a = Convert.ToInt32(Console.ReadLine());
+    Console.Write("Enter the 2st number:");
+    b = int.Parse(Console.ReadLine());
+    Console.Write("Enter the 3st number:");
+    c = Int32.Parse(Console.ReadLine());
+    Console.Write("Enter the 4st number:");
+    d = Int16.Parse(Console.ReadLine());
+    sum = a + b + c + d;
+    Console.WriteLine($"Sum of numbers:{sum}");
+    Console.WriteLine($"Average of numbers:{sum/4}");
+}
+
+//Make the program that finds the ASCII code of the key entered
+//from the keyboard by using the Read command.
+void Question6()
+{
+    int key;
+    Console.Write("Press a key:");
+    key = Console.Read();
+    Console.WriteLine($"ASCII Code:{key}");
+}
+
 
