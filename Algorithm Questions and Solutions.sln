@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Console Applications", "Console Applications\Console Applications.csproj", "{6D1A794D-B1D1-4509-A104-EC2C3AE4CCD4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Constants and Variables", "Constants and Variables\Constants and Variables.csproj", "{854611CA-D8EC-4B1C-8FDB-5C7B18A18BF9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{6D1A794D-B1D1-4509-A104-EC2C3AE4CCD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6D1A794D-B1D1-4509-A104-EC2C3AE4CCD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6D1A794D-B1D1-4509-A104-EC2C3AE4CCD4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{854611CA-D8EC-4B1C-8FDB-5C7B18A18BF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{854611CA-D8EC-4B1C-8FDB-5C7B18A18BF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{854611CA-D8EC-4B1C-8FDB-5C7B18A18BF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{854611CA-D8EC-4B1C-8FDB-5C7B18A18BF9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
