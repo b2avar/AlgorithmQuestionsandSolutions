@@ -127,6 +127,7 @@ void Question7()
     Console.WriteLine("The result of the XOR operator is {0}", num1 ^ num2);
 }
 
+Question7();
 
 //Write a program that prints the sum of two numbers entered by the user from the keyboard
 //using the 3 bit right and 4 bit shift operators to the screen.
