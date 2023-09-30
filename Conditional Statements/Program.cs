@@ -103,3 +103,36 @@ void Question5()
     Console.Write(number % 2 == 0 && number != 0 ? "Number is even" : number == 0 ? "Number is zero" : "Number is odd");
 }
 
+Question6();
+
+//Write a program to find the roots of a quadratic equation using the if - else command.
+void Question6()
+{
+    double a, b, c, delta, x1, x2;
+    Console.WriteLine("ax2 + bx + c = 0 denklemi icin");
+    Console.Write("a katsayisini giriniz :");
+    a = Convert.ToDouble(Console.ReadLine());
+    Console.Write("b katsayisini giriniz :");
+    b = Convert.ToDouble(Console.ReadLine());
+    Console.Write("c katsayisini giriniz :");
+    c = Convert.ToDouble(Console.ReadLine());
+    delta = b * b - 4 * a * c;
+    if (delta > 0)
+    {
+        x1 = (-b + Math.Sqrt(delta)) / (2 * a);
+        x2 = (-b - Math.Sqrt(delta)) / (2 * a);
+        Console.WriteLine("Denklemin iki farkli kok vardir");
+        Console.WriteLine($"x1 = {x1} ve x2 = {x2}");
+    }
+    else if (delta == 0)
+    {
+        x1 = -b / (2 * a);
+        Console.WriteLine("Denklemin iki esit koku vardir");
+        Console.WriteLine("x1 = x2 = {x1}");
+    }
+    else
+    {
+        Console.WriteLine("Denklemin kokleri yoktur");
+    }
+}
+
