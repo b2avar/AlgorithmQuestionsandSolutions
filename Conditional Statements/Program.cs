@@ -103,8 +103,6 @@ void Question5()
     Console.Write(number % 2 == 0 && number != 0 ? "Number is even" : number == 0 ? "Number is zero" : "Number is odd");
 }
 
-Question6();
-
 //Write a program to find the roots of a quadratic equation using the if - else command.
 void Question6()
 {
@@ -136,3 +134,30 @@ void Question6()
     }
 }
 
+Question7();
+//After the user is asked for gender (m/f), military status (has he/she done it? y/n) and age
+//information, write the program with the if-else command in which applications are accepted
+//only from men (m), those who have done their military service and those who are 30 years old
+//or younger.
+void Question7() {
+    Console.Write("Gender (m/f) :");
+    char gender = Convert.ToChar(Console.ReadLine());
+    if (gender == 'm') {
+        Console.Write("Military status (has he/she done it? y/n) :");
+        char militaryStatus = Convert.ToChar(Console.ReadLine());
+        if (militaryStatus == 'y') {
+            Console.Write("Age :");
+            int age = Convert.ToInt32(Console.ReadLine());
+            if (age <= 30) {
+                Console.Write("You are hired");
+            } else {
+                Console.Write("Those under the age of 31 will be admitted.");
+            }
+        } else {
+            Console.Write("Personnel who have completed their military service will be recruited.");
+        }        
+    } else {
+        Console.Write("Only man can apply");
+    } 
+}    
+    
