@@ -2,8 +2,7 @@
 
 //Write a program that performs the sum , difference , multiplication , quotient and mode of two numbers
 //entered by the user from the keyboard .
-void Question1()
-{
+void Question1() {
     double num1, num2;
     Console.WriteLine("Enter the first number");
     num1 = Convert.ToDouble(Console.ReadLine());
@@ -18,8 +17,7 @@ void Question1()
 
 
 //Write a program that finds the arithmetic mean of four numbers entered by the user on the keyboard.
-void Question2()
-{
+void Question2() {
     double num1, num2, num3, num4;
     Console.WriteLine("Enter the first number");
     num1 = Convert.ToDouble(Console.ReadLine());
@@ -35,8 +33,7 @@ void Question2()
 
 
 //Write a program that finds the area and perimeter of a triangle whose right sides are entered by the user from the keyboard.
-void Question3()
-{
+void Question3() {
     int side1, side2, h, area, perimeter;
     Console.WriteLine("Enter the first side");
     side1 = Convert.ToInt32(Console.ReadLine());
@@ -53,8 +50,7 @@ void Question3()
 
 
 //Write a program that finds the area and perimeter of a circle whose radius is entered by the user on the keyboard.
-void Question4()
-{
+void Question4() {
     double radius;
     double area, perimeter;
     Console.WriteLine("Enter the radius");
@@ -70,8 +66,7 @@ void Question4()
 
 //Write the program that finds the amount of money in TL by the user from the keyboard,
 //and how many Euros and dollars in TL, according to the Euro and Dollar rate entered by the user.
-void Question5()
-{
+void Question5() {
     double amount, euro, dollar;
     Console.WriteLine("Enter the amount of money in TL");
     amount = Convert.ToDouble(Console.ReadLine());
@@ -90,8 +85,7 @@ void Question5()
 
 //Write a program that performs the sum , multiplication and mode operations of the
 //numbers entered by the user from the keyboard with abbreviated transfer operators.
-void Question6()
-{
+void Question6() {
     int num1, num2;
     Console.WriteLine("Enter the first number");
     num1 = Convert.ToInt32(Console.ReadLine());
@@ -115,8 +109,7 @@ void Question6()
 
 //Write a program that prints the results obtained using the logical operators
 //AND, OR, XOR for two numbers entered by the user from the keyboard.
-void Question7()
-{
+void Question7() {
     int num1, num2;
     Console.WriteLine("Enter the first number");
     num1 = Convert.ToInt32(Console.ReadLine());
@@ -131,8 +124,7 @@ Question7();
 
 //Write a program that prints the sum of two numbers entered by the user from the keyboard
 //using the 3 bit right and 4 bit shift operators to the screen.
-void Question8()
-{
+void Question8() {
     int num1, num2;
     Console.WriteLine("Enter the first number");
     num1 = Convert.ToInt32(Console.ReadLine());

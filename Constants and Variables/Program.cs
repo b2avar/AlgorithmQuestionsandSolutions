@@ -5,8 +5,7 @@
 //with 3 children (student) (parents and 3 children) who goes to a movie theater
 //with a full ticket price of 10 TL and a student ticket price of 7 TL.
 //(Ticket prices will be entered into the program as fixed.)
-void Question1()
-{
+void Question1() {
     const int fullTicket = 10, studentTicket = 7;
     int fullTicketNumber, StudentTicketNumber, total;
     Console.Write("How many full ticket: ");
@@ -20,8 +19,7 @@ void Question1()
 
 //Question 2: Write a program that assigns values to variables of type decimal,
 //string, int, sbyte, double, char, bool, float, and short, and then prints them vertically on the screen.
-void Question2()
-{
+void Question2() {
     decimal a = 1.5m;
     string b = "Hello";
     int c = 5;
@@ -47,11 +45,9 @@ void Question2()
 
 //Variable Types Based on Where They Are Defined
 
-
 //Write a program that finds the product of the general variable g and the local variable y.
 int g = 5;
-void Question3()
-{
+void Question3() {
     int y = 10;
     Console.WriteLine(g * y);
     Console.ReadKey();
@@ -64,8 +60,7 @@ void Question3()
 
 //After defining the month names in the year as enums,
 //write the program that finds the name of the month the user enters as numbers.
-void Question4()
-{
+void Question4() {
     Console.Write("Enter the month number: ");
     int month = Int32.Parse(Console.ReadLine());
     Console.WriteLine((Months)month);
@@ -80,8 +75,7 @@ void Question4()
 
 //Write the program that finds the type of the variables we use in the program using the GetType method.
 
-void Question5()
-{
+void Question5() {
     int a = 5;
     string b = "Hello";
     double c = 1.5;
@@ -98,11 +92,9 @@ void Question5()
 
 
 //Conversion Between Variable Types
-Question8();
 
 //Write the program that divides two integers (39 and 5) entered from the keyboard and displays the result as a decimal number.
-void Question6()
-{
+void Question6() {
     int a = 39, b = 5;
     Console.WriteLine((double)a / b);
     Console.ReadKey();
@@ -111,8 +103,7 @@ void Question6()
 
 //Write a program that takes the value of true (15/3=5) from the user if the operation
 //given on the screen is true, and false if it is false, and measures the user's mathematical knowledge.
-void Question7()
-{
+void Question7() {
     Console.Write("15/3=5? (True/False): ");
     bool answer = Convert.ToBoolean(Console.ReadLine());
     if(answer) Console.WriteLine("Correct");
@@ -124,25 +115,21 @@ void Question7()
 
 //Write a program that finds which gender value is entered according to the gender
 //information entered by the user (e for male, k for female).
-void Question8()
-{
+void Question8() {
     char type;
     Console.WriteLine("Enter gender information (e/k): ");
     type = Convert.ToChar(Console.ReadLine());
-    if (type.Equals('e'))
-    {
+    if (type.Equals('e')) {
         Console.WriteLine("Male information entered");
     }
 
-    if (type.Equals('k'))
-    {
+    if (type.Equals('k')) {
         Console.WriteLine("Female information entered");
     }
 }
 
 
-enum Months
-{
+enum Months {
     January = 1,
     February,
     March,

@@ -85,8 +85,7 @@ void Question7()
 
 //Write a program that finds which key was
 //pressed on the keyboard using the ConsoleKeyInfo method.
-void Question8()
-{
+void Question8() {
     ConsoleKeyInfo key;
     Console.Write("Press a key:");
     key = Console.ReadKey(true);
@@ -99,12 +98,10 @@ void Question8()
 
 //Write a program that puts 100 * characters in
 //random positions on the screen using the SetCursorPosition method.
-void Question9()
-{
+void Question9() {
     Random rnd = new Random();
     Console.SetWindowSize(30,20);
-    for (int i = 0; i < 100; i++)
-    {
+    for (int i = 0; i < 100; i++) {
         int width = rnd.Next(1, 29);
         int height = rnd.Next(1, 19);
         Console.SetCursorPosition(width,height);
