@@ -272,3 +272,28 @@ void Question12() {
             break;
     }
 }
+
+    
+
+//Loops
+//Write the program that says 10 "b2avar" on the screen with the for loop.
+void Question13() {
+    for (int i = 0; i < 10; i++) {
+        Console.WriteLine($"{i+1} b2avar ");
+    }
+}
+
+//Write a program using for command to find sum of even numbers and odd numbers between 0 and 20.
+void Question14() {
+    var sumEven = 0;
+    var sumOdd = 0;
+    for (var i = 0; i <= 20; i++) {
+        if (i % 2 == 0) {
+            sumEven += i;
+        } else {
+            sumOdd += i;
+        }
+    }
+    Console.WriteLine($"Sum of even numbers : {sumEven}");
+    Console.WriteLine($"Sum of odd numbers : {sumOdd}");
+}
