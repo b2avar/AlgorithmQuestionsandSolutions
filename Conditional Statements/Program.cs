@@ -273,7 +273,6 @@ void Question12() {
     }
 }
 
-    
 
 //Loops
 //Write the program that says 10 "b2avar" on the screen with the for loop.
@@ -295,5 +294,25 @@ void Question14() {
         }
     }
     Console.WriteLine($"Sum of even numbers : {sumEven}");
-    Console.WriteLine($"Sum of odd numbers : {sumOdd}");
+    Console.WriteLine($"Sum of odd numbers : {sumOdd}"); 
+}
+
+// Write a program that finds the sum and average of 16 numbers entered by the user from the keyboard and writes the results to the screen, using the for command.
+void Question15() {
+    var sum = 0;
+    for (var i = 0; i < 16; i++) {
+        Console.Write("Write a number :");
+        sum += Convert.ToInt32(Console.ReadLine());
+    }
+    Console.WriteLine($"Sum : {sum}");
+    Console.WriteLine($"Average : {sum / 16}");
+}
+
+Question16();
+//Write a program that generates 10 random numbers between 1-100 and writes them to the screen, using the for command.
+void Question16() {
+    var random = new Random();
+    for (var i = 0; i < 10; i++) {
+        Console.WriteLine(random.Next(1, 100));
+    }
 }
